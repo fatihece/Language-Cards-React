@@ -1,0 +1,90 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color:yellow ;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.container{
+    width: 400px;
+    height: 700px;
+    margin: auto;
+    margin-top: 10px;
+}
+
+.logo{
+    width: 200px;
+    margin: auto;
+    margin-bottom: 15px;
+}
+
+.logo img{
+    max-width: 100%;
+    text-align: center;
+}
+
+.card-container{
+    background: linear-gradient(40deg, orange 50%, #6CB4EE 50%,#6CB4EE 60%,orange 60%);
+    width: 400px;
+    height: 600px;
+    border-radius: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    overflow: ;
+}
+
+h3{
+    text-align: center;
+    color: white;
+    letter-spacing: .1rem; 
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 100%;
+    font-size: 1.5em;
+    font-weight: bold;
+
+
+}
+.card{
+    width: 150px;
+    height:120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: wheat;
+    border-radius: 15px;
+}
+.card:hover{
+    box-shadow: 0px 0px 15px 5px rgba(43, 41, 177,0.8); 
+    cursor: pointer;
+}
+
+.image{
+    width: 75px;
+}
+
+.image img{
+    max-width: 100%;
+}
+
+.image:hover{
+   transform: scale(1.2);
+   transition: all 0.2s ease;
+   cursor: pointer;
+}
+
+.title h5{
+    letter-spacing: .2rem; 
+  
+}
+
+
+.info{
+    display: none;
+}
