@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 const Item = ({card}) => {
-    const [showLogo, setShowLogo] = useState(false);
+    const [showLogo, setShowLogo] = useState(true);
 
     return (
         <div className="card" onClick={() => setShowLogo(!showLogo)}>
