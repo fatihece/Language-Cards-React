@@ -14,6 +14,7 @@ const Item = ({card}) => {
                         <h5>{card.name}</h5>
                     </div>
                 </>
+                
                 :
             
                     <ul className="info">
@@ -27,5 +28,6 @@ const Item = ({card}) => {
         </div>        
     )
 }
+
 
 export default Item;
