@@ -14,7 +14,7 @@ const Card = () => {
                 <img src={logo} alt="react-logo"></img>
             </div>
             <div className="card-container">
-                <h3>Languages</h3>
+                <h3>Languages Card</h3>
                 {categories.map((categoryEl,index) => {
                     return( <Item card={categoryEl} key={index} />
                     )
