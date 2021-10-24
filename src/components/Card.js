@@ -5,8 +5,6 @@ import "./Card.css"
 import Item from "./Item"
 
 
-
-
 const Card = () => {
     
     return (
